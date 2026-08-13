@@ -1,0 +1,442 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="icon" type="image/png" href="images/favicon.png" />
+
+    <title>Side Quests | Sakib Ibrahim</title>
+
+    <meta
+      name="description"
+      content="Explore Sakib Ibrahim's completed travels, future destinations, and dream trip to Japan through an interactive RPG-inspired travel log."
+    />
+
+    <!-- Bootstrap CSS Library -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+
+    <!-- Shared Website CSS -->
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+
+  <body class="side-quests-page">
+    <!-- Responsive Bootstrap Navigation -->
+    <nav class="navbar navbar-expand-lg portfolio-navbar">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="home.html"> Who Is Sakib Ibrahim? </a>
+
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#portfolioNavigation"
+          aria-controls="portfolioNavigation"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="portfolioNavigation">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="character_profile.html">
+                Character Profile
+              </a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link" href="inventory.html"> Inventory </a>
+            </li>
+
+            <li class="nav-item">
+              <a
+                class="nav-link active"
+                href="side_quests.html"
+                aria-current="page"
+              >
+                Side Quests
+              </a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link" href="save_data.html"> Save Data </a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link" href="contact.html"> Contact </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Main Side Quests Container -->
+    <main class="page-container">
+      <!-- Page Heading -->
+      <header class="page-header">
+        <p class="page-label">Travel Log</p>
+
+        <h1>Side Quests</h1>
+
+        <h2>Adventures beyond work, school, and everyday life.</h2>
+      </header>
+
+      <!-- Introduction -->
+      <section class="intro-section">
+        <p>
+          Every great adventure includes side quests. Outside of work and
+          school, I enjoy traveling, discovering new places, experiencing
+          different cultures, and collecting memories from each destination.
+          Some places have already become part of my journey, while others
+          remain exciting adventures waiting to be unlocked.
+        </p>
+      </section>
+
+      <!-- Interactive Completed and Future Side Quests -->
+      <section class="quest-grid">
+        <!-- ========================================
+             Completed Side Quests
+        ========================================= -->
+        <article class="quest-panel completed-quests">
+          <h2>Completed Side Quests</h2>
+
+          <ul class="quest-list">
+            <li>New York City</li>
+            <li>New Jersey</li>
+            <li>Florida</li>
+            <li>North Carolina</li>
+            <li>Dubai, United Arab Emirates</li>
+          </ul>
+
+          <!-- jQuery Show and Hide Control -->
+          <button
+            class="quest-toggle-button"
+            type="button"
+            data-target="#completedQuestDetails"
+            aria-expanded="false"
+            aria-controls="completedQuestDetails"
+          >
+            Show Completed Quest Details
+          </button>
+
+          <!-- Hidden Completed Quest Details -->
+          <div class="quest-extra-details" id="completedQuestDetails">
+            <h3>Completed Travel Log</h3>
+
+            <p>
+              Each destination represents a different experience, from familiar
+              places close to home to international travel that introduced me to
+              completely new environments and perspectives.
+            </p>
+
+            <ul class="quest-detail-list">
+              <li>
+                <strong>New York City:</strong>
+                My home base and the place where my professional, academic, and
+                personal journey continues.
+              </li>
+
+              <li>
+                <strong>New Jersey:</strong>
+                A nearby destination explored through day trips, events,
+                shopping, dining, and time with family and friends.
+              </li>
+
+              <li>
+                <strong>Florida:</strong>
+                A memorable destination with warm weather, attractions,
+                entertainment, and a very different pace from New York.
+              </li>
+
+              <li>
+                <strong>North Carolina:</strong>
+                A trip that offered a different regional atmosphere, scenery,
+                and travel experience.
+              </li>
+
+              <li>
+                <strong>Dubai, United Arab Emirates:</strong>
+                An international journey filled with modern architecture,
+                culture, impressive city views, and memorable experiences.
+              </li>
+            </ul>
+          </div>
+        </article>
+
+        <!-- ========================================
+             Future Side Quests
+        ========================================= -->
+        <article class="quest-panel future-quests">
+          <h2>Future Side Quests</h2>
+
+          <ul class="quest-list">
+            <li>Japan</li>
+            <li>United Kingdom</li>
+            <li>South Korea</li>
+            <li>Singapore</li>
+            <li>Australia</li>
+            <li>Italy</li>
+          </ul>
+
+          <!-- jQuery Show and Hide Control -->
+          <button
+            class="quest-toggle-button future-toggle-button"
+            type="button"
+            data-target="#futureQuestDetails"
+            aria-expanded="false"
+            aria-controls="futureQuestDetails"
+          >
+            Show Future Quest Details
+          </button>
+
+          <!-- Hidden Future Quest Details -->
+          <div class="quest-extra-details" id="futureQuestDetails">
+            <h3>Future Travel Log</h3>
+
+            <p>
+              These destinations remain locked for now, but each one represents
+              a future experience I would like to unlock.
+            </p>
+
+            <ul class="quest-detail-list">
+              <li>
+                <strong>Japan:</strong>
+                My highest-priority dream destination because of its culture,
+                technology, food, scenery, history, anime, and gaming influence.
+              </li>
+
+              <li>
+                <strong>United Kingdom:</strong>
+                A future opportunity to experience London, historic landmarks,
+                museums, architecture, and British culture.
+              </li>
+
+              <li>
+                <strong>South Korea:</strong>
+                A destination that combines modern technology, food,
+                entertainment, history, and city life.
+              </li>
+
+              <li>
+                <strong>Singapore:</strong>
+                A future quest known for modern design, architecture,
+                technology, diverse food, and a unique urban environment.
+              </li>
+
+              <li>
+                <strong>Australia:</strong>
+                A long-distance adventure featuring major cities, natural
+                scenery, wildlife, and an entirely different travel experience.
+              </li>
+
+              <li>
+                <strong>Italy:</strong>
+                A destination filled with historic cities, art, architecture,
+                culture, and food that I would like to experience in person.
+              </li>
+            </ul>
+          </div>
+        </article>
+      </section>
+
+      <!-- ========================================
+           Japan Adventure Spotlight
+      ========================================= -->
+      <section class="spotlight-panel">
+        <div class="spotlight-heading">
+          <p class="page-label">Featured Destination</p>
+
+          <h2>Adventure Spotlight: Japan</h2>
+        </div>
+
+        <p>
+          Japan has long been one of my dream travel destinations. Its
+          breathtaking scenery, rich history, incredible food, modern
+          technology, and unique culture continue to inspire me to one day turn
+          this goal into reality. The video below captures just a glimpse of
+          what makes Japan one of the biggest side quests on my travel list.
+        </p>
+
+        <div class="video-frame">
+          <video controls preload="metadata" playsinline>
+            <source src="videos/japan.mp4" type="video/mp4" />
+
+            Your browser does not support the video tag.
+          </video>
+        </div>
+      </section>
+
+      <!-- ========================================
+           Bootstrap Quest Log Accordion
+      ========================================= -->
+      <section class="quest-accordion-panel">
+        <div class="quest-accordion-heading">
+          <p class="page-label">Quest Archive</p>
+
+          <h2>Travel Quest Log</h2>
+
+          <p>
+            Expand each category to explore what travel has added to my journey,
+            my highest-priority destination, and the places still on my future
+            travel list.
+          </p>
+        </div>
+
+        <div class="accordion quest-accordion" id="travelQuestAccordion">
+          <!-- Completed Quest Accordion Item -->
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="completedQuestHeading">
+              <button
+                class="accordion-button"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#completedQuestCollapse"
+                aria-expanded="true"
+                aria-controls="completedQuestCollapse"
+              >
+                What Travel Has Added to My Journey
+              </button>
+            </h2>
+
+            <div
+              id="completedQuestCollapse"
+              class="accordion-collapse collapse show"
+              aria-labelledby="completedQuestHeading"
+              data-bs-parent="#travelQuestAccordion"
+            >
+              <div class="accordion-body">
+                <h3>Perspective Through Exploration</h3>
+
+                <p>
+                  Traveling gives me the chance to step outside of familiar
+                  routines, experience different environments, and see how
+                  culture, architecture, food, and everyday life can vary from
+                  place to place.
+                </p>
+
+                <p>
+                  Whether the destination is close to home or across the world,
+                  each trip adds another experience to the larger journey.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <!-- Priority Quest Accordion Item -->
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="priorityQuestHeading">
+              <button
+                class="accordion-button collapsed"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#priorityQuestCollapse"
+                aria-expanded="false"
+                aria-controls="priorityQuestCollapse"
+              >
+                Highest-Priority Future Quest
+              </button>
+            </h2>
+
+            <div
+              id="priorityQuestCollapse"
+              class="accordion-collapse collapse"
+              aria-labelledby="priorityQuestHeading"
+              data-bs-parent="#travelQuestAccordion"
+            >
+              <div class="accordion-body">
+                <h3>Japan</h3>
+
+                <p>
+                  Japan remains my highest-priority future destination because
+                  it brings together many of my interests, including technology,
+                  gaming, anime, food, history, architecture, design, and
+                  culture.
+                </p>
+
+                <p>
+                  It is one of the destinations I most want to experience in
+                  person and represents a major future side quest I hope to
+                  unlock.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <!-- Future Quest Accordion Item -->
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="futureQuestHeading">
+              <button
+                class="accordion-button collapsed"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#futureQuestCollapse"
+                aria-expanded="false"
+                aria-controls="futureQuestCollapse"
+              >
+                Future Quest Wishlist
+              </button>
+            </h2>
+
+            <div
+              id="futureQuestCollapse"
+              class="accordion-collapse collapse"
+              aria-labelledby="futureQuestHeading"
+              data-bs-parent="#travelQuestAccordion"
+            >
+              <div class="accordion-body">
+                <h3>Destinations Still to Unlock</h3>
+
+                <ul class="accordion-quest-list">
+                  <li>
+                    <strong>United Kingdom:</strong>
+                    history, architecture, museums, and London
+                  </li>
+
+                  <li>
+                    <strong>South Korea:</strong>
+                    technology, food, entertainment, and city life
+                  </li>
+
+                  <li>
+                    <strong>Singapore:</strong>
+                    modern architecture, design, technology, and food
+                  </li>
+
+                  <li>
+                    <strong>Australia:</strong>
+                    major cities, natural scenery, wildlife, and exploration
+                  </li>
+
+                  <li>
+                    <strong>Italy:</strong>
+                    historic cities, art, architecture, culture, and food
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Page Navigation -->
+      <nav class="page-navigation" aria-label="Side quests navigation">
+        <a href="home.html">← Return to Main Menu</a>
+        <a href="contact.html">Finish Journey →</a>
+      </nav>
+    </main>
+
+    <!-- Bootstrap JavaScript Bundle -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+
+    <!-- jQuery Library -->
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+
+    <!-- Shared Website JavaScript -->
+    <script src="js/script.js"></script>
+  </body>
+</html>
